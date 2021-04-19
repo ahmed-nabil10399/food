@@ -506,13 +506,18 @@ nav .content .links li:last-child i::after {
 }
 
 nav.media .links {
+  transform: translate(-100%, 0);
+  -webkit-transform: translate(-100%, 0);
+  -moz-transform: translate(-100%, 0);
+  -ms-transform: translate(-100%, 0);
+  -o-transform: translate(-100%, 0);
   visibility: hidden;
   opacity: 0;
   padding: 20px 30px;
   background-color: #333;
   position: absolute;
   top: 0;
-  left: -75vw;
+  left: 0;
   margin: 0  auto;
   width: 75vw !important;
   height: 100vh;
@@ -544,7 +549,6 @@ nav.media .links.actived {
 @media (max-width: 567px) {
   nav.media .links {
     width: 100% !important;
-    left: 0;
   }
 }
 
