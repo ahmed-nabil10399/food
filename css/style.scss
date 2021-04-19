@@ -417,8 +417,8 @@ nav {
             }
         }
     }
-    @media (max-width: 767px)
-     {
+    // @media (max-width: 767px)
+    &.media {
         
         .links {
             // @include transform-translate(-100%, 0);
