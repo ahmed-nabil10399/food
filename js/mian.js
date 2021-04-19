@@ -81,13 +81,13 @@ $(document).ready(function(){
         $('nav').removeClass('media');
         } ;
 
-    $(window).resize(function () {
-        if ($(window).width() < 767) {
-            $('nav').addClass('media');
-        } else {
-            $('nav').removeClass('media');
-        }
-    }) 
+    // $(window).resize(function () {
+    //     if ($(window).width() < 767) {
+    //         $('nav').addClass('media');
+    //     } else {
+    //         $('nav').removeClass('media');
+    //     }
+    // }) 
 
     // /88888888888888888
     // /88888888888888888
